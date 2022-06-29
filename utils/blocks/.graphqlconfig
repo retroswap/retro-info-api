@@ -1,0 +1,15 @@
+{
+  "name": "Harmony One Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Harmony One Blocks": {
+        "url": "https://api.thegraph.com/subgraphs/name/retroswap/blocks",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
